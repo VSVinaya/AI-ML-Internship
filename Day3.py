@@ -102,11 +102,11 @@ b = {3,4,5,6}
 print(a.intersection(b))
 
 
-print("Squares from 1–10")
+print("Squares from 1-10")
 squares = [x*x for x in range(1,11)]
 print(squares)
 
 
-print("Even numbers from 1–20")
+print("Even numbers from 1-20")
 even = [x for x in range(1,21) if x % 2 == 0]
 print(even)
