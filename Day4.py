@@ -62,6 +62,7 @@ try:
     print(file.read())
 except FileNotFoundError:
     print("File not found")
+    
 
 print("Find longest word in file")
 with open("details.txt", "r") as file:
