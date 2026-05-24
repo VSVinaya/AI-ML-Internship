@@ -1,63 +1,62 @@
-# #Debugging Practice
+#Debugging Practice
 
-# print("Fix Syntax Error")
-# #Wrong Code : print("Hello
-# # Correct Code : 
-# print("Hello")
+print("Fix Syntax Error")
+#Wrong Code : print("Hello
+# Correct Code : 
+print("Hello")
 
-# print("Fix Value Error")
-# #Wrong Code : x = int("abc")
-# #Correct Code : 
-# x = int("10")
-# print(x)
+print("Fix Value Error")
+#Wrong Code : x = int("abc")
+#Correct Code : 
+x = int("10")
+print(x)
 
-# print("Fix Index Error")
-# #Wrong Code : nums = [1,2,3]
-# #print(nums[5])
-# #Correct Code : 
-# nums = [1,2,3]
-# print(nums[2])
+print("Fix Index Error")
+#Wrong Code : nums = [1,2,3]
+#print(nums[5])
+#Correct Code : 
+nums = [1,2,3]
+print(nums[2])
 
-# #Optimization Practice
+#Optimization Practice
 
-# #Replace Loops with Built-in Functions
-# #Before
-# nums = [1,2,3]
-# total = 0
-# for i in nums:
-#     total += i
-# print(total)
-# #Optimized
-# nums = [1,2,3]
-# print(sum(nums))
+#Replace Loops with Built-in Functions
+#Before
+nums = [1,2,3]
+total = 0
+for i in nums:
+    total += i
+print(total)
+#Optimized
+nums = [1,2,3]
+print(sum(nums))
 
-# #Optimize Sorting
-# #Before
-# numbers = [5,2,8,1]
-# for i in range(len(numbers)):
-#     for j in range(i+1, len(numbers)):
-#         if numbers[i] > numbers[j]:
-#             numbers[i], numbers[j] = numbers[j], numbers[i]
-# print(numbers)
-# #Optimized
-# numbers = [5,2,8,1]
-# numbers.sort()
-# print(numbers)
+#Optimize Sorting
+#Before
+numbers = [5,2,8,1]
+for i in range(len(numbers)):
+    for j in range(i+1, len(numbers)):
+        if numbers[i] > numbers[j]:
+            numbers[i], numbers[j] = numbers[j], numbers[i]
+print(numbers)
+#Optimized
+numbers = [5,2,8,1]
+numbers.sort()
+print(numbers)
 
-# #Reduce Repeated Code
-
-# #Before
-# nums1 = [1,2,3]
-# total1 = sum(nums1)
-# print(total1)
-# nums2 = [4,5,6]
-# total2 = sum(nums2)
-# print(total2)
-# #Optimized
-# def calculate_sum(numbers):
-#     return sum(numbers)
-# print(calculate_sum([1,2,3]))
-# print(calculate_sum([4,5,6]))
+#Reduce Repeated Code
+#Before
+nums1 = [1,2,3]
+total1 = sum(nums1)
+print(total1)
+nums2 = [4,5,6]
+total2 = sum(nums2)
+print(total2)
+#Optimized
+def calculate_sum(numbers):
+    return sum(numbers)
+print(calculate_sum([1,2,3]))
+print(calculate_sum([4,5,6]))
 
 #Refactoring
 
