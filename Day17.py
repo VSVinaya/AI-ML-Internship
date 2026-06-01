@@ -1,57 +1,57 @@
-# #Math Practice
+#Math Practice
 
-# print("Find Square Root")
-# import math
-# print(math.sqrt(25))
+print("Find Square Root")
+import math
+print(math.sqrt(25))
 
-# print("Find Power")
-# import math
-# print(math.pow(2,4))
+print("Find Power")
+import math
+print(math.pow(2,4))
 
-# print("Round Numbers")
-# import math
-# print(math.ceil(2.3))
-# print(math.floor(2.9))
+print("Round Numbers")
+import math
+print(math.ceil(2.3))
+print(math.floor(2.9))
 
-# print("Use π Value")
-# import math
-# print(math.pi)
+print("Use π Value")
+import math
+print(math.pi)
 
-# #Random Practice
+#Random Practice
 
-# print("Generate Random Number")
-# import random
-# print(random.randint(1,10))
+print("Generate Random Number")
+import random
+print(random.randint(1,10))
 
-# print("Pick Random Element")
-# import random
-# numbers = [10,20,30,40]
-# print(random.choice(numbers))
+print("Pick Random Element")
+import random
+numbers = [10,20,30,40]
+print(random.choice(numbers))
 
-# print("Generate List of Random Numbers")
-# import random
-# nums = []
-# for i in range(5):
-#     nums.append(random.randint(1,100))
-# print(nums)
+print("Generate List of Random Numbers")
+import random
+nums = []
+for i in range(5):
+    nums.append(random.randint(1,100))
+print(nums)
 
-# #Datetime Practice
+#Datetime Practice
 
-# print("Print Current Date")
-# import datetime
-# today = datetime.datetime.now()
-# print(today)
+print("Print Current Date")
+import datetime
+today = datetime.datetime.now()
+print(today)
 
-# print("Format Date")
-# import datetime
-# today = datetime.datetime.now()
-# print(today.strftime("%Y-%m-%d"))
+print("Format Date")
+import datetime
+today = datetime.datetime.now()
+print(today.strftime("%Y-%m-%d"))
 
-# print("Extract Year and Month")
-# import datetime
-# today = datetime.datetime.now()
-# print(today.year)
-# print(today.month)
+print("Extract Year and Month")
+import datetime
+today = datetime.datetime.now()
+print(today.year)
+print(today.month)
 
 #Visualization
 
