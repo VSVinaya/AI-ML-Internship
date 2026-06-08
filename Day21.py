@@ -10,10 +10,10 @@ import numpy as np
 arr = np.array([1,2,3,4,5,6])
 print(arr.reshape(1,2,3))
 
-# print("Try Invalid Reshape")
-# import numpy as np
-# arr = np.array([1,2,3,4,5,6])
-# print(arr.reshape(4,2))
+print("Try Invalid Reshape")
+import numpy as np
+arr = np.array([1,2,3,4,5,6])
+print(arr.reshape(4,2))
 #Error : 6 elements cannot be reshaped into 8 positions.
 
 #Flatten
