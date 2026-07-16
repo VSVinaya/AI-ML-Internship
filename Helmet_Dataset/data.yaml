@@ -1,0 +1,5 @@
+train: Helmet_Dataset/images/train
+val: Helmet_Dataset/images/val
+nc: 1
+names:
+  - Helmet
