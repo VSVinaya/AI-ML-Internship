@@ -1,0 +1,76 @@
+Theory
+1: What is NLP?
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, analyze, and generate human language. It allows people to communicate with computers using natural languages such as English, Malayalam, Hindi, and Tamil. 
+
+2: Why do we need NLP?
+NLP is needed because humans communicate using words and sentences, while computers understand only binary data (0s and 1s). NLP acts as a bridge between humans and computers, making communication easier and more natural. 
+
+3: Explain three NLP applications.
+1.	Chatbots – Chatbots like ChatGPT answer user questions and provide information. 
+2.	Language Translation – Applications such as Google Translate convert text from one language to another. 
+3.	Sentiment Analysis – Companies analyze customer reviews to determine whether opinions are positive, negative, or neutral. 
+
+4: Difference between NLP and Computer Vision.
+NLP: Works with text and language, Used in chatbots and translation, Processes human language.
+Computer Vision: Works with images and videos, Used in object detection and face recognition, Processes visual information.
+
+5: What is text data?
+Text data is information represented as words, sentences, or paragraphs. Examples include emails, messages, social media posts, customer reviews, and articles. NLP mainly works with text data. 
+
+Practical Task 
+1: List 10 NLP applications used in daily life.
+1.	ChatGPT 
+2.	Google Translate 
+3.	Gmail Spam Filter 
+4.	WhatsApp Predictive Text 
+5.	Siri 
+6.	Google Assistant 
+7.	Amazon Review Analysis 
+8.	YouTube Comment Analysis 
+9.	Grammarly 
+10.	Customer Support Chatbots 
+
+2: Identify 5 apps that use NLP.
+1.	ChatGPT 
+2.	WhatsApp 
+3.	Gmail 
+4.	Google Translate 
+5.	Amazon 
+
+3: Collect 20 positive and 20 negative reviews.
+
+Positive Reviews	           Negative Reviews
+This product is amazing.	    I am disappointed.
+Excellent quality.	            Waste of money.
+I love this app.              	The app keeps crashing.
+Very useful and easy to use.	Slow performance.
+Great customer service.	        Bad customer support.
+Fast delivery.	                Delivery was delayed.
+Highly recommended.	            Not worth the price.
+The design is beautiful.     	I don't recommend it.
+Worth the money.	            The battery drains quickly.
+Fantastic performance.	        Very difficult to use.
+Easy to understand.	            Product arrived damaged.
+Very reliable.	                It stopped working.
+Perfect for daily use.	        Poor packaging.
+I am completely satisfied.	    Terrible experience.
+Outstanding experience.	        The sound quality is bad.
+The battery lasts long.      	Not as expected.
+Smooth and fast.	            The screen freezes often.
+Good value for money.        	One-star product
+
+4: Explain how ChatGPT uses NLP.
+ChatGPT uses Natural Language Processing (NLP) to understand the user's questions and generate meaningful responses. It analyzes the words, sentence structure, and context of the input, then predicts and produces a relevant answer in natural language. This enables smooth and human-like conversations. 
+
+Practical Task 5: NLP Workflow Diagram
+Text Data
+    ↓
+Text Cleaning
+    ↓
+Text Processing
+    ↓
+Feature Extraction
+    ↓
+Model Training
+    ↓
+Prediction
