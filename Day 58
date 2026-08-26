@@ -1,0 +1,30 @@
+1: Draw the Chatbot Architecture
+User -> User Message -> Natural Language Processing (NLP) -> Intent Recognition -> Decision & Response Generator -> Response to User
+
+2: List five websites or applications that use Chatbots.
+ChatGPT, Google Assistant, Amazon Alexa, Siri, Banking Customer Support Chatbots 
+
+3: Write five customer questions and identify their intents.
+User Message                	Intent
+Where is my order?          	Track Order
+I forgot my password.	        Password Reset
+What is my account balance?	    Balance Enquiry
+I want to cancel my order.	    Cancel Order
+Book a ticket to Delhi.	        Ticket Booking
+
+4: Create a simple conversation flow for a banking chatbot.
+Bot: Welcome to ABC Bank. How can I help you?
+User: I want to check my account balance.
+Bot: Please enter your account number.
+User: 1234567890
+Bot: Your current account balance is ₹25,000.
+User: Thank you.
+Bot: You're welcome. Have a great day!
+
+5: Compare Rule-Based and AI-Based Chatbots.
+Feature	         Rule-Based Chatbot	     AI-Based Chatbot
+Working Method	 Uses predefined rules	 Uses AI, NLP, and Machine Learning
+Learning Ability Cannot learn	         Learns from data
+Responses	     Fixed	                 Flexible
+Complexity	     Simple	                 Advanced
+Example	         FAQ Bot	             ChatGPT
