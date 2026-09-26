@@ -1,0 +1,19 @@
+2. Create the RAG Flowchart
+
+PDF → Text → Chunks → Embeddings → ChromaDB → Retrieval → LLM → Answer. 
+PDF → Upload the document.
+Text → Extract readable text from the PDF.
+Chunks → Divide large text into smaller pieces.
+Embeddings → Convert each chunk into numbers.
+ChromaDB → Store the embeddings.
+Retrieval → Find the most relevant chunks.
+LLM → Generate the answer using the retrieved information.
+Answer → Display the final response to the user. 
+
+3. Python Libraries Required for RAG
+Library	Purpose
+PyPDF2	Reads and extracts text from PDF files
+Sentence Transformers	Creates text embeddings
+ChromaDB	Stores embeddings and performs similarity search
+FAISS	Performs fast similarity search
+OpenAI SDK	Connects the Python program with an LLM
