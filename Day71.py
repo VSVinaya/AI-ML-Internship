@@ -1,6 +1,6 @@
 print("Load a Sample PDF")
 from langchain_community.document_loaders import PyPDFLoader
-loader = PyPDFLoader("college.pdf")
+loader = PyPDFLoader("sample.pdf")
 documents = loader.load()
 print("PDF loaded successfully!")
 print("Number of pages:", len(documents))
@@ -8,8 +8,8 @@ print("Number of pages:", len(documents))
 
 print("Split PDF into Chunks")
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-loader = PyPDFLoader("college.pdf")
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+loader = PyPDFLoader("sample.pdf")
 documents = loader.load()
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=500,
@@ -23,10 +23,10 @@ print("Number of chunks:", len(chunks))
 
 print("Store in ChromaDB and Search")
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
-loader = PyPDFLoader("college.pdf")
+loader = PyPDFLoader("sample.pdf")
 documents = loader.load()
 print("PDF loaded!")
 splitter = RecursiveCharacterTextSplitter(
