@@ -1,5 +1,5 @@
 print("prompt template")
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 template = """
 You are a helpful AI assistant.
 Context:
