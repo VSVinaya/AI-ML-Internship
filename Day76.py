@@ -14,7 +14,7 @@ print("\nTotal pages loaded:", len(documents))
 
 
 print("Split Documents and Generate Embeddings")
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=500,
@@ -51,9 +51,7 @@ questions = [
     "What information is provided about employee training?"
 ]
 for question in questions:
-    print("\n================================")
     print("Question:", question)
-    print("================================")
     results = retriever.invoke(question)
     for i, doc in enumerate(results, start=1):
         print(f"\nResult {i}:")
